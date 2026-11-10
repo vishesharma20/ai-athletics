@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Secrets and local settings (never commit these)
+.env
+.env.local
+
+# Uploaded and generated media (large, private)
+storage/
+*.mp4
+*.mov
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
